@@ -1,0 +1,4 @@
+language : java
+script : "mvn -f ders2final/pom.xml clean install cobertura:cobertura"
+jdk: 
+   - openjdk8
